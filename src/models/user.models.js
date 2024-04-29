@@ -83,8 +83,4 @@ userSchema.methods.generateRefreshToken = function () {
         )
 }
 
-userSchema.methods.deleteOldFile = function(){
-    
-}
-
 export const User = mongoose.model('User', userSchema)
